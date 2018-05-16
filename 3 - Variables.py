@@ -3,6 +3,10 @@ space_in_car = 4.0
 drivers = 30
 passengers = 90
 
+name, age = 'Saurabh', 33
+
+print "I'm %s and I'm %d years old"%(name, age)  
+
 cars_not_driven = no_of_cars - drivers
 car_driven = drivers
 carpool_Capacity = car_driven * space_in_car
